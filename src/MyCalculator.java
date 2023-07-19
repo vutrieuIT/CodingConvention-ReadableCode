@@ -17,7 +17,8 @@ public class MyCalculator {
         }
     }
 
-    public static String stringConcatenator(String str1, String str2, String str3, String str4, String str5){
+    public static String stringConcatenator(String str1, String str2,
+                                            String str3, String str4, String str5){
         String stringConcat = str1 + str2 + str3 + str4 + str5;
         return stringConcat;
     }
