@@ -1,14 +1,11 @@
 public class MyCalculator {
 
+    // sort using 'buble sort', time complexity is O(N^2)
     public static void sortByAscending(int[] arr){
-        // The first loop is used to iterate over all elements of the array,
+        // TODO: using other algorithms better
         for(int i=1;i<arr.length;i++){
-            // The second loop is used to iterate over the elements of the array,
-            // starting from the element after the one selected in the first loop.
             for(int j=i+1;j<arr.length;j++){
-                // Compare the i-th element with the elements after it in the array.
                 if(arr[i]>arr[j]){
-                    // If the i-th element is greater than the j-th element, swap their positions.
                     int temp=arr[i];
                     arr[i]=arr[j];
                     arr[j]=temp;
