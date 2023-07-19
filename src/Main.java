@@ -1,11 +1,11 @@
 public class Main {
     class Employee {
         private static final String COMPANY = "RUNSYSTEM";
-        String a;
+        String name;
 
         // print name employee
-        void p() {
-            System.out.println("name is " + a);
+        void printName() {
+            System.out.println("name is " + name);
         }
     }
 

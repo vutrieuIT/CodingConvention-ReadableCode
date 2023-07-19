@@ -1,6 +1,6 @@
 public class MyCalculator {
 
-    public static void cal(int[] arr){
+    public static void sortByAscending(int[] arr){
         // The first loop is used to iterate over all elements of the array,
         for(int i=1;i<arr.length;i++){
             // The second loop is used to iterate over the elements of the array,
@@ -18,7 +18,7 @@ public class MyCalculator {
     }
 
     public static String stringConcatenator(String str1, String str2, String str3, String str4, String str5){
-        String retval = str1 + str2 + str3 + str4 + str5;
-        return retval;
+        String stringConcat = str1 + str2 + str3 + str4 + str5;
+        return stringConcat;
     }
 }
