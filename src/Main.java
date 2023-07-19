@@ -1,10 +1,10 @@
 public class Main {
-    class employee {
-        private static final String company = "RUNSYSTEM";
+    class Employee {
+        private static final String COMPANY = "RUNSYSTEM";
         String a;
 
         // print name employee
-        void P() {
+        void p() {
             System.out.println("name is " + a);
         }
     }
